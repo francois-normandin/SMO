@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="13008000">
+<Project Type="Project" LVVersion="21008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
@@ -21,50 +21,13 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Registry" Type="Folder">
-			<Item Name="Registry-SMO.lvclass" Type="LVClass" URL="../Registry/Registry-SMO.lvclass"/>
+		<Item Name="ProcessTemplates" Type="Folder">
+			<Item Name="ProcessTemplate (JKI-SM).vi" Type="VI" URL="../Templates/ProcessTemplate (JKI-SM).vi"/>
+			<Item Name="ProcessTemplate (Minimal).vi" Type="VI" URL="../Templates/ProcessTemplate (Minimal).vi"/>
+			<Item Name="ProcessTemplate (TimedLoop).vi" Type="VI" URL="../Templates/ProcessTemplate (TimedLoop).vi"/>
 		</Item>
-		<Item Name="Support" Type="Folder">
-			<Item Name="Attributes" Type="Folder">
-				<Item Name="Attribute.lvclass" Type="LVClass" URL="../Support/Attribute/Attribute.lvclass"/>
-				<Item Name="Attribute.Identity.lvclass" Type="LVClass" URL="../Support/Attribute.Identity/Attribute.Identity.lvclass"/>
-				<Item Name="Attribute.Owner.lvclass" Type="LVClass" URL="../Support/Attribute.Owner/Attribute.Owner.lvclass"/>
-				<Item Name="Attribute.SharedResource.lvclass" Type="LVClass" URL="../Support/Attribute.SharedResource/Attribute.SharedResource.lvclass"/>
-				<Item Name="Attribute.Dependencies.lvclass" Type="LVClass" URL="../Support/Attribute.Dependencies/Attribute.Dependencies.lvclass"/>
-				<Item Name="Attribute.StartupBehavior.lvclass" Type="LVClass" URL="../Support/Attribute.StartupBehavior/Attribute.StartupBehavior.lvclass"/>
-				<Item Name="Attribute.ErrorHandling.lvclass" Type="LVClass" URL="../Support/Attribute.ErrorHandling/Attribute.ErrorHandling.lvclass"/>
-			</Item>
-			<Item Name="Dependency" Type="Folder">
-				<Item Name="Dependency.lvclass" Type="LVClass" URL="../Dependency/Dependency.lvclass"/>
-			</Item>
-			<Item Name="URI Parsing" Type="Folder">
-				<Item Name="URI.lvlib" Type="Library" URL="../URI Parsing/URI.lvlib"/>
-			</Item>
-			<Item Name="Variant Parsing" Type="Folder">
-				<Item Name="ArrayToCluster.vi" Type="VI" URL="../Utilities/ArrayToCluster.vi"/>
-				<Item Name="ClusterToArray.vi" Type="VI" URL="../Utilities/ClusterToArray.vi"/>
-				<Item Name="MatchInputs.vi" Type="VI" URL="../Utilities/MatchInputs.vi"/>
-				<Item Name="Extract Element Names.vi" Type="VI" URL="../Utilities/Extract Element Names.vi"/>
-			</Item>
-			<Item Name="Facade" Type="Folder">
-				<Item Name="Test SMO Facade.vi" Type="VI" URL="../SMOFacade/Test SMO Facade.vi"/>
-				<Item Name="SMOFacade.lvclass" Type="LVClass" URL="../SMOFacade/Facade/SMOFacade.lvclass"/>
-				<Item Name="Terminal.lvclass" Type="LVClass" URL="../SMOFacade/Terminal/Terminal.lvclass"/>
-				<Item Name="PublicEvents.lvclass" Type="LVClass" URL="../SMOFacade/PublicEvents/PublicEvents.lvclass"/>
-			</Item>
-			<Item Name="Definitions" Type="Folder">
-				<Item Name="def.SMO.lvclass" Type="LVClass" URL="../Definitions/def.SMO/def.SMO.lvclass"/>
-			</Item>
-			<Item Name="ProcessTemplates" Type="Folder">
-				<Item Name="ProcessTemplate (JKI-SM).vi" Type="VI" URL="../Templates/ProcessTemplate (JKI-SM).vi"/>
-				<Item Name="ProcessTemplate (TimedLoop).vi" Type="VI" URL="../Templates/ProcessTemplate (TimedLoop).vi"/>
-				<Item Name="ProcessTemplate (Minimal).vi" Type="VI" URL="../Templates/ProcessTemplate (Minimal).vi"/>
-			</Item>
-		</Item>
-		<Item Name="SMO.lvclass" Type="LVClass" URL="../SMO/SMO.lvclass"/>
-		<Item Name="SMO.UI.lvclass" Type="LVClass" URL="../SMO.UI/SMO.UI.lvclass"/>
 		<Item Name="JKI State Machine Objects.vipc" Type="Document" URL="../JKI State Machine Objects.vipc"/>
-		<Item Name="SMO Base Test Launcher.vi" Type="VI" URL="../SMO/SMO Base Test Launcher.vi"/>
+		<Item Name="smo.lvlib" Type="Library" URL="../smo.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
@@ -104,6 +67,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{AA360D84-EE87-4D84-A617-10C2D080DBCB}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{7A146106-8D1D-4E3E-B4CE-870393B47D05}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{9B730450-5827-4270-BA08-438D9B08F43B}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Test-DiscoverAPI-Executable</Property>
@@ -127,11 +91,11 @@
 				<Property Name="Source[0].itemID" Type="Str">{B79CDBA6-E14E-4015-A784-BDE0FD4CFD34}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Registry/Registry-SMO.lvclass/API/Discover API.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/smo.lvlib/Registry/Registry-SMO.lvclass/API/Discover API.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/SMO.lvclass</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/smo.lvlib/SMO.lvclass</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">Library</Property>
 				<Property Name="SourceCount" Type="Int">3</Property>
@@ -141,6 +105,46 @@
 				<Property Name="TgtF_productName" Type="Str">Test-DiscoverAPI-Executable</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{06DCDE5C-3D2F-4213-9C9A-324981D69ECD}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Application.exe</Property>
+			</Item>
+			<Item Name="SMO PPL" Type="Packed Library">
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{11E18F3F-632D-4DD1-AF14-550AB8AB700A}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">SMO PPL</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/builds/SMO PPL</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{35156B3F-D17C-4AFA-95C9-56E93E13551E}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">smo.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/builds/SMO PPL/smo.lvlibp</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/builds/SMO PPL</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
+				<Property Name="Source[0].itemID" Type="Str">{98E30FA3-33CC-48D7-BF35-60507BA3AECD}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/smo.lvlib</Property>
+				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[1].Library.atomicCopy" Type="Bool">true</Property>
+				<Property Name="Source[1].Library.LVLIBPtopLevel" Type="Bool">true</Property>
+				<Property Name="Source[1].preventRename" Type="Bool">true</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">Library</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">Rivian Automotive inc.</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">SMO Packaged for Rivian Automotive Usage</Property>
+				<Property Name="TgtF_internalName" Type="Str">SMO PPL</Property>
+				<Property Name="TgtF_productName" Type="Str">SMO </Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{B5E370BC-470C-4B58-8464-1D7A63D64971}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">smo.lvlibp</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
 	</Item>
