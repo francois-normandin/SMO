@@ -115,8 +115,8 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/builds/SMO PPL</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{35156B3F-D17C-4AFA-95C9-56E93E13551E}</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Destination[0].destName" Type="Str">smo.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/builds/SMO PPL/smo.lvlibp</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
@@ -127,7 +127,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{98E30FA3-33CC-48D7-BF35-60507BA3AECD}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{49437260-D1C1-46C0-9C95-815A59752D60}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/smo.lvlib</Property>
@@ -138,7 +138,7 @@
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="TgtF_companyName" Type="Str">Rivian Automotive inc.</Property>
+				<Property Name="TgtF_companyName" Type="Str">Rivian Automotive Inc</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">SMO Packaged for Rivian Automotive Usage</Property>
 				<Property Name="TgtF_internalName" Type="Str">SMO PPL</Property>
 				<Property Name="TgtF_productName" Type="Str">SMO </Property>
