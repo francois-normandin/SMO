@@ -112,22 +112,21 @@
 				<Property Name="Bld_buildSpecName" Type="Str">SMO PPL</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/builds/SMO PPL</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../_build/ppl</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{35156B3F-D17C-4AFA-95C9-56E93E13551E}</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Destination[0].destName" Type="Str">smo.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/builds/SMO PPL/smo.lvlibp</Property>
-				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].path" Type="Path">../_build/ppl/smo.lvlibp</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/builds/SMO PPL</Property>
-				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[1].path" Type="Path">../_build/ppl</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{49437260-D1C1-46C0-9C95-815A59752D60}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{2C94673F-CFF8-4AD4-B0D6-F257156DB24F}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/smo.lvlib</Property>

@@ -14,3 +14,11 @@
 # Metadata
 *.aliases
 *.lvlps
+
+# Packages
+*.vip
+
+# Binary folders
+_build/*
+_builds/*
+_built_packages/*
