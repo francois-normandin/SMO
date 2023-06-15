@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="13008000">
+<Project Type="Project" LVVersion="21008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
@@ -104,6 +104,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{AA360D84-EE87-4D84-A617-10C2D080DBCB}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{7A146106-8D1D-4E3E-B4CE-870393B47D05}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{9B730450-5827-4270-BA08-438D9B08F43B}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Test-DiscoverAPI-Executable</Property>
