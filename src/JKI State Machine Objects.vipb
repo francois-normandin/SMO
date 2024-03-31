@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2015-12-04 15:52:35" Modified_Date="2023-06-15 08:48:25" Creator="Francois Normandin" Comments="" ID="8aa0dd748c3f4d5627684eed6f2a7801">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2015-12-04 15:52:35" Modified_Date="2024-03-30 17:18:28" Creator="Francois Normandin" Comments="" ID="81b6092c71bf2815bc744cfab738df5c">
   <Library_General_Settings>
     <Package_File_Name>JKI_StateMachineObjects</Package_File_Name>
-    <Library_Version>1.4.1.71</Library_Version>
+    <Library_Version>2.0.0.73</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\_build\vip</Library_Output_Folder>
@@ -41,7 +41,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
       <Copyright/>
       <Packager>JKI</Packager>
       <URL>https://github.com/JKISoftware/JKI-State-Machine-Objects</URL>
-      <Release_Notes>Hot Fix for casting DVR to 64-bit integer</Release_Notes>
+      <Release_Notes>LVLIB + LV2021SP1</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -279,7 +279,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>Temp</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F6ED181D4ECA5872DB7C0BD592510610</GUID>
+      <GUID>7FC626D6746141DEEA038F36EA7C6A67</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -608,7 +608,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>SMO\WaitForState.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F15D978C2AC32FA3F473C2ABF4E3891C</GUID>
+      <GUID>60717923E9986C76D5B6864453749375</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -741,7 +741,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>Protected</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4E2DC38305383EE37E1BEA972F39DF0F</GUID>
+      <GUID>A11ECA4BE86B2B3BD419D9FFA7988C4D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1042,7 +1042,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>SMO\Protected\Register Process.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>55D22328B0CB5781E36064C5765CB406</GUID>
+      <GUID>9C9D3FB37358E2F890551921F029F2B8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1077,7 +1077,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>SMO.UI\Show User Interface.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1C6AABD67A990553D3747DB3530A0204</GUID>
+      <GUID>6E761C2E86E27EFC2AE0551D98E92251</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1126,7 +1126,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>URI Parsing\Parse URI.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>837C2B36CD4D8A1B04C78CE22EDB5218</GUID>
+      <GUID>936DE3AC3B83BF13230303591ECA94F2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1287,7 +1287,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>SMOFacade\Facade\Get Method Prototype.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A95C9907D7BE5749BF6C945BB0993291</GUID>
+      <GUID>AEB969A075197E076A160CA98E180C99</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1364,7 +1364,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>Templates\ProcessTemplate (Minimal).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2017AEEAC682FECD74B5996467A77D92</GUID>
+      <GUID>F41EE69DC5C11F704150D1C5B4966B76</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

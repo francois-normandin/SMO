@@ -116,7 +116,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{35156B3F-D17C-4AFA-95C9-56E93E13551E}</Property>
-				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.build" Type="Int">4</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Destination[0].destName" Type="Str">smo.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../_build/ppl/smo.lvlibp</Property>
@@ -126,7 +126,7 @@
 				<Property Name="Destination[1].path" Type="Path">../_build/ppl</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{2C94673F-CFF8-4AD4-B0D6-F257156DB24F}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{1D6C3744-CC13-406F-AC43-FB10841989E7}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/smo.lvlib</Property>
